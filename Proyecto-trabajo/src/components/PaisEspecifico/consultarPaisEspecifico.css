@@ -1,0 +1,15 @@
+.contenedor_info_pais{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen_pais{
+    width: 10%;
+}
+
+.contenedor_paises_lim{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    font-size: medium;
+}
