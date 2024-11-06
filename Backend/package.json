@@ -1,0 +1,23 @@
+{
+  "name": "backend-tp-integrador-dds-2024",
+  "version": "1.0.0",
+  "description": "Backend TP integrador DDS 2024",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "swagger:gen": "node ./config/swagger.js",
+    "dev": "npx nodemon app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --force-exit"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "swagger": "^0.7.5"
+  }
+}
